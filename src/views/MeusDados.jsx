@@ -30,7 +30,7 @@ export default class MeusDados extends Component{
                 <MenuPainel dadosCliente={this.state.dadosCliente}  />
                 <div id="meusdadosbox">
                 <div id="boxdadoscliente">
-                <strong>Nome</strong><input class="inputdadoscliente" type="text" value={this.state.dadosCliente.nome}/>
+                <strong> Nome</strong><input class="inputdadoscliente" type="text" value={this.state.dadosCliente.nome}/>
                 <strong> Sobrenome:</strong><input class="inputdadoscliente"type="text" value={this.state.dadosCliente.sobrenome}/>
                 <strong> Gênero:</strong> <input class="inputdadoscliente"type="text" value={this.state.dadosCliente.genero}/>
                 <strong> Sua data de nascimento:</strong><input class="inputdadoscliente"type="text" value={this.state.dadosCliente.dataNascimento}/>

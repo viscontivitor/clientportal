@@ -23,6 +23,7 @@ export default class MeusEnderecos extends Component {
 
     render() {
         return (
+           
             <MenuPainel dadosCliente={this.state.dadosCliente} />
             
 

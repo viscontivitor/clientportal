@@ -32,6 +32,7 @@ export default class PaginaCliente extends Component {
         return (
           <div className="pagina-cliente">                 
                 <MenuPainel dadosCliente={this.state.dadosCliente} />
+                
                 <Carousel autoPlay={true} showArrows={false} width="90%" >
                     <div>
                         <img class="imagecarousel" src="../assets/1.jpeg"/>

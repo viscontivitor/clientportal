@@ -27,7 +27,8 @@ componentDidMount(){
         return(
             <div className="pagina-cliente">                 
                 <MenuPainel dadosCliente={this.state.dadosCliente} />
-                <Carousel autoPlay={true} showArrows={false} width="90%" >
+                <div class="carousel">
+                <Carousel autoPlay={true} showArrows={false} width="30%">
                     <div>
                         <img class="imagecarousel" src="../assets/1.jpg"/>
                     </div>
@@ -38,6 +39,7 @@ componentDidMount(){
                         <img class="imagecarousel" src="../assets/3.jpg" />
                     </div>
                 </Carousel>
+                </div>
             </div>
         )
     }

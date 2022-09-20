@@ -3,11 +3,14 @@
   padding:0;
 }
 
-
+strong{
+  color: #ddd;
+  text-align: center;
+}
 #boxdadoscliente{
     display:flex;
     flex-direction: column;
-    background-color: rgb(155, 155, 155);
+    background-color: rgb(0, 0, 0);
 }
 .inputdadoscliente{
     width:200px;
@@ -74,8 +77,8 @@
     
   }
   .imagecarousel{
-    width: 800px;
-    height:800px;
+    width:100px;
+    height:200px;
   }
   header{
     width:100%;
@@ -87,3 +90,11 @@ header h1{
   text-align: center;
   padding-top:25px;
 } 
+.carousel{
+  margin-left:160px;
+  margin-top:20px;
+
+}
+.thumbs-wrapper .axis-vertical{
+  height:15px;
+}
